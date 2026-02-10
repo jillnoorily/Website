@@ -3,28 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jill's Website</title>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      text-align: left;
-      padding: 48px 16px;
-    }
-    h1 { color: darkblue; }
-  </style>
+  <title>Daily Learnings</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is my first website built with HTML. Pretty coooool.</p>
+  <header>
+    <nav>
+      <a href="index.html">Daily</a>
+      <a href="images.html">Images</a>
+      <a href="recommendations.html">Recommendations</a>
+    </nav>
+  </header>
 
-  <h2>About Me</h2>
-  <p>I am a girl. I love information, research, and art. </p>
-  <p>2/10/26 - I learned how to make this. ಠ_ಠ <-- cute or what? </p>
-  <p>2/10/26 - Let's not harp on gender. I learned about this cool website <a href="https://removepaywalls.com/">removepaywalls.com</a>
-</p>  <img src="https://as1.ftcdn.net/v2/jpg/00/71/91/44/1000_F_71914406_DMYDrd92FwmDU3tbEbukJ3D3VQgJSIcW.jpg" alt="Description">
+  <main>
+    <h1>Something I Learned Every Day</h1>
+    <p class="small">A running log of little discoveries.</p>
+
+    <div class="card">
+      <h3>2/10/26</h3>
+      <p>Let's not harp on gender. I learned about this website:
+        <a href="https://removepaywalls.com/" target="_blank" rel="noopener noreferrer">example.com</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>2/09/26</h3>
+      <p>Write your next entry here.</p>
+    </div>
+  </main>
 </body>
 </html>
 
